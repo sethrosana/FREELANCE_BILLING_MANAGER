@@ -8,6 +8,7 @@ psycopg2-binary = "*"
 click = "*"
 sqlalchemy = "*"
 tabulate = "*"
+pytest = "*"
 
 [dev-packages]
 
