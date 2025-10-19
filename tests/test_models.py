@@ -1,5 +1,5 @@
 import unittest
-from freelance_billing_machine.models import Client, Project, Invoice, Worklog
+from freelance_billing_machine.models import Client, Project, Invoice, WorkLog
 
 class TestModels(unittest.TestCase):
     def test_client_creation(self):
@@ -11,7 +11,7 @@ class TestModels(unittest.TestCase):
         self.assertEqual(project.title, "Website")
 
     def test_worklog_creation(self):
-        worklog = Worklog(project_id=1, date="2025-10-19", hours=4)
+        worklog = WorkLog(project_id=1, date="2025-10-19", hours=4)
         self.assertEqual(worklog.hours, 4)
 
 if __name__ == '__main__':
