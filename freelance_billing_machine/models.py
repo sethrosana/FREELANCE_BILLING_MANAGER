@@ -1,7 +1,7 @@
 from sqlalchemy import Column, Integer, String, Float, ForeignKey, Date
-from sqlalchemy.orm import relationship, declarative_base
+from sqlalchemy.orm import relationship
+from .database import Base  # ✅ use the same Base from database.py
 
-Base = declarative_base()
 
 class Client(Base):
     __tablename__ = 'clients'
