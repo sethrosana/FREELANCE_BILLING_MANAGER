@@ -1,6 +1,6 @@
 # 🧾 Freelance Billing Manager
 
-**Freelance Billing Manager** is a lightweight and efficient tool built with **Python** and **SQLAlchemy** that helps freelancers manage clients, track invoices, and store billing data seamlessly using **PostgreSQL** or **SQLite**.
+**Freelance Billing Manager** is a lightweight and efficient tool built with **Python** and **SQLAlchemy** that helps freelancers manage clients, track invoices, and store billing data seamlessly using **PostgreSQL** 
 
 ---
 
@@ -13,7 +13,7 @@ Managing freelance projects can be messy — tracking invoices, clients, and pay
 - Create and manage invoices  
 - Record payments  
 - Generate quick reports  
-- Support both **PostgreSQL** (for production) and **SQLite** (for local development)
+- Support  **PostgreSQL** 
 
 ---
 
@@ -23,7 +23,7 @@ Managing freelance projects can be messy — tracking invoices, clients, and pay
 |------------|-------------|
 | Language | Python |
 | ORM | SQLAlchemy |
-| Database | PostgreSQL / SQLite |
+| Database | PostgreSQL |
 | Testing | Pytest |
 | Dependency Management | Pipenv |
 
@@ -34,7 +34,7 @@ Managing freelance projects can be messy — tracking invoices, clients, and pay
 ✅ Client management — add, edit, and delete clients  
 ✅ Invoice tracking — create, view, and update invoices  
 ✅ Payment management — record and track payments  
-✅ Database flexibility — works with both SQLite (local) and PostgreSQL (production)  
+✅ Database  — PostgreSQL   
 ✅ Easy to extend — modular and ORM-based design  
 
 ---
