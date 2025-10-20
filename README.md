@@ -13,7 +13,7 @@ Managing freelance projects can be messy — tracking invoices, clients, and pay
 - Create and manage invoices  
 - Record payments  
 - Generate quick reports  
-- Support both **PostgreSQL** (for production) and **SQLite** (for local development)
+- Support  **PostgreSQL** 
 
 ---
 
